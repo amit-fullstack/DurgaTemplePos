@@ -1,0 +1,6 @@
+{
+  "editor.fontLigatures": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.autoIndent": "brackets"
+}

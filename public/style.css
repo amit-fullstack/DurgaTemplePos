@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --content: #3b3f43;
+  --title: #1a1e23;
+  --title2: #8d2805;
+  --sub-title: #b10819;
+  --bg-color: #f5f6fa;
+  --btn: #582ecf;
+  --white: #ffffff;
+  --label: #1a1e23;
+  --price: #cf582e;
+  --del: #d22130;
+  --body-font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: var(--bg-color) !important;
+}
+.logo {
+  margin: 14px auto;
+}
+.logo2 {
+  margin: 4px auto 0;
+}
+.content-bg {
+  height: 100vh;
+  width: 100%;
+  border-radius: 0 !important;
+}
+.bld {
+  font-weight: 700 !important;
+}
+.tittle {
+  color: var(--title);
+  font-size: 22px !important;
+  margin-bottom: 30px !important;
+}
+.tittle span {
+  color: var(--price) !important;
+  margin-left: 4px;
+}
+.tittle2 {
+  color: var(--title2) !important;
+  font-size: 18px !important;
+  margin-bottom: 6px !important;
+}
+.title3 {
+  color: var(--title);
+  font-size: 20px !important;
+  margin-bottom: 3px !important;
+  margin-top: 8px !important;
+  font-weight: 600;
+}
+.bg-content2 {
+  height: 100vh;
+  width: 100%;
+  margin: 0 32px;
+}
+.bg-content {
+  height: 100vh;
+}
+.bg-color {
+  background-color: var(--bg-color);
+  height: 100vh;
+}
+.sidemenu-bdr {
+  border: 1px solid #ffd0c0 !important;
+  width: 230px !important;
+  margin: 0 auto !important;
+}
+.sidemenu-bdr:hover {
+  background: linear-gradient(90deg, rgb(88, 46, 207), rgb(207, 88, 46));
+  color: var(--white) !important;
+  font-size: 19px !important;
+}
+.btn {
+  padding: 9px 24px !important;
+  border-radius: 0 !important;
+  border: 2px solid var(--btn) !important;
+  color: var(--btn) !important;
+  text-transform: initial !important;
+  font-size: 15px !important;
+}
+.btn:hover {
+  padding: 9px 24px !important;
+  background: var(--btn) !important;
+  color: var(--white) !important;
+  border-radius: 0 !important;
+  border: 2px solid var(--btn) !important;
+}
+.btn1 {
+  padding: 9px 30px !important;
+  background: var(--btn) !important;
+  color: var(--white) !important;
+  border-radius: 0 !important;
+  border: 2px solid var(--btn) !important;
+  font-weight: 600 !important;
+}
+.btn-cancel {
+  padding: 9px 30px !important;
+  background: transparent !important;
+  color: var(--del) !important;
+  border-radius: 0 !important;
+  font-weight: 600 !important;
+  border: 2px solid #ccc !important;
+}
+.sidemenu-btn {
+  background: linear-gradient(90deg, rgb(88, 46, 207), rgb(207, 88, 46));
+  color: var(--white) !important;
+  font-size: 19px !important;
+}
+
+.input {
+  height: 50px !important;
+  margin-top: 5px !important;
+}
+.label {
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  color: var(--label) !important;
+}
+.th-bg {
+  background: #cf582e !important;
+}
+.th-color {
+  color: var(--white) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+}
+.td-bg {
+  background: #fdf9f7 !important;
+}
+.css-1sh6wjw-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 13.5px !important;
+}
+.white-clr {
+  color: var(--white) !important;
+}
+.css-z6k2z3-MuiButtonBase-root-MuiTab-root {
+  border: 1px solid #ffd0c0 !important;
+  margin: 0 6px !important;
+  text-transform: inherit !important;
+  border-radius: 5px !important;
+}
+.css-z6k2z3-MuiButtonBase-root-MuiTab-root:hover {
+  border: 1px solid transparent !important;
+  background: var(--btn) !important;
+  color: var(--white) !important;
+}
+.css-z6k2z3-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background: var(--btn) !important;
+  color: var(--white) !important;
+  border: 1px solid transparent !important;
+  border-radius: 5px !important;
+}
+.price {
+  font-size: 17px !important;
+  /* font-weight: 700 !important; */
+  color: var(--price) !important;
+  text-align: right !important;
+}
+.del {
+  color: var(--del) !important;
+}
+.details {
+  font-size: 15px !important;
+  color: var(--content) !important;
+  line-height: 32px !important;
+}
+.details span {
+  font-weight: 600 !important;
+  color: var(--title) !important;
+  margin-left: 8px;
+}
+.css-10ukr6t-MuiTableCell-root {
+  font-size: 15px !important;
+  font-family: var(--body-font-family) !important;
+  /* font-weight: 500 !important; */
+}
+.css-wyr1dd-MuiTypography-root {
+  font-size: 19px !important;
+}
+.css-s6km2v-MuiFormLabel-root {
+  color: var(--label) !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+.text-area {
+  font-size: 15px !important;
+  font-family: var(--body-font-family) !important;
+  border: 1px solid #ccc !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.list-text {
+  display: block !important;
+}
+
+.casher {
+  position: absolute;
+  bottom: 20px !important;
+  width: 100%;
+}
+.logout-icon {
+  top: 5px;
+  position: relative;
+  margin-right: 10px !important;
+}
+.logout {
+  position: absolute;
+  bottom: 20px !important;
+  width: 100%;
+  margin-left: 5px !important;
+}
+.next-btn {
+  position: absolute;
+  right: 68px;
+  bottom: 32px;
+}
+.total-amt {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+/* services */
+.tab2 {
+  border: 1px solid #e4e4e4 !important;
+  border-radius: 6px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  margin-right: 6px !important;
+  text-transform: initial !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.css-1gsv261 {
+  border: none !important;
+}
+.css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background: var(--btn) !important;
+  color: var(--white) !important;
+}
+.css-uyrjoy-MuiTypography-root {
+  margin-bottom: 6px !important;
+  font-size: 15.5px !important;
+  line-height: 21px !important;
+  font-family: var(--body-font-family) !important;
+  font-weight: 600 !important;
+}
+.service-price {
+  color: var(--price) !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+}
+.css-46bh2p-MuiCardContent-root:last-child {
+  padding-bottom: 6px !important;
+}
+.css-13xfq8m-MuiTabPanel-root {
+  padding: 14px 0 !important;
+}
+.css-1yalo2m-MuiTabs-scroller {
+  position: static !important;
+}
+.css-19vw02s-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 0px !important;
+  padding: 9px 16px !important;
+}
+.css-18w7uxr-MuiSvgIcon-root {
+  font-size: 26px !important;
+}
+.css-h2lolh-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 15px 14px !important;
+  border-radius: 0px !important;
+}
+.puja-basket {
+  margin-top: 5px !important;
+}
+.css-46bh2p-MuiCardContent-root {
+  padding: 10px !important;
+}
+.img-width {
+  width: 100px !important;
+  height: 78px !important;
+  margin: 5px !important;
+}
+.css-18muoh2-MuiPaper-root-MuiCard-root {
+  width: 48%;
+}
+.cart {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #b10819 !important;
+}
+.cart-title {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
+@media screen and (max-width: 900px) and (min-width: 768px) {
+  .css-18muoh2-MuiPaper-root-MuiCard-root {
+    width: 45%;
+  }
+  .css-3y1137-MuiStack-root {
+    display: block !important;
+  }
+  .img-width {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .tab2 {
+    padding: 12px !important;
+    min-width: 56px !important;
+  }
+}
